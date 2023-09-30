@@ -1,5 +1,5 @@
 const form = FormApp.getActiveForm();
-const spreadSheet = SpreadsheetApp.openById("記録するスプシのID");//ごめんここだけ、自分たちで使うスプレッドシートのIDを設定お願いします！
+const spreadSheet = SpreadsheetApp.openById("「鍵括弧ごと消して、IDを書いてね」");//ごめんここだけ、自分たちで使うスプレッドシートのIDを設定お願いします！
 const reserveSheet = spreadSheet.getSheetByName("予約");
 const listSheet = spreadSheet.getSheetByName("日程");
 
